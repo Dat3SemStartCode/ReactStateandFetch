@@ -1,6 +1,6 @@
 //Add imports here
 
-const CountryFactory = () => {
+const countryFacade = () => {
 
   const getLabels = () => {
     //TODO: Get Labels from server
@@ -9,6 +9,10 @@ const CountryFactory = () => {
   const getCountries = () => {
     //TODO: Get Countries from server
   }
+  return {
+    getLabels,
+    getCountries
+  }
 }
 
-export default new CountryFactory();
+export default  countryFacade();

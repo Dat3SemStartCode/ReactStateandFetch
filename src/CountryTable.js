@@ -1,17 +1,20 @@
-import React, { Component } from "react";
+import React from "react";
 
 const CountryTable = () => {
-  
     return (
+      <div>
+      <p>Replace the thead section with a row generated from the Labels endpoint</p>
+      <p>Replace the tbody section with rows generated from the countries endpoint</p>
       <table className="table">
         <thead>
-          <tr><th>This is the header. Replace with a row generated from the Labels endpoint</th></tr>
+          <tr></tr>
         </thead>
         
         <tbody>
-         <tr>This is the body. Replace with rows generated from the countries endpoint</tr>
+         <tr></tr>
         </tbody>
       </table>
+      </div>
     );
 };
 export default CountryTable;
